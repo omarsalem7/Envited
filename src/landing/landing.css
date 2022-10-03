@@ -1,0 +1,32 @@
+.land {
+  padding: 10%;
+  background-color: var(--landBackground);
+  text-align: center;
+}
+
+.land h1 {
+  color: var(--primaryText);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.land-gradient {
+  background-color: #f3ec78;
+  background-image: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.land-text {
+  color: var(--secondaryText);
+  font-size: 16px;
+  padding: 16px 0 55px 0;
+}
+
+.land-img-container img {
+  width: 90%;
+}

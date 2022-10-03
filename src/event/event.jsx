@@ -1,3 +1,4 @@
+import './event.css';
 const Event = () => {
   return <div>Event</div>;
 };

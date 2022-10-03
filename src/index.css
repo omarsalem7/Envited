@@ -1,6 +1,24 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  font-family: Helvetica, Arial, sans-serif;
+  /* Primary Palette */
+  --primaryText: #240d57;
+  --landBackground: #f6f2ff;
+  --secondaryText: #4f4f4f;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
