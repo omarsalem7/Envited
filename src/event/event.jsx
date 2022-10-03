@@ -1,8 +1,13 @@
+import { useLocation } from 'react-router-dom';
 import LocationIcon from '../assets/Location.svg';
 import CalendarIcon from '../assets/Calendar.svg';
 import Arrow from '../assets/arrow.svg';
 import './event.css';
 const Event = () => {
+  const location = useLocation();
+
+  const { eventName, HostName, startDate, endDate, Location, photo } =
+    location.state;
   return (
     <div className="event">
       <div>

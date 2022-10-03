@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Button from '../common/Button';
 import './landing.css';
 
@@ -19,7 +20,9 @@ const Landing = () => {
           alt="landing"
         />
       </div>
-      <Button>🎉 Create my event</Button>
+      <Button>
+        <Link to="/create">🎉 Create my event</Link>
+      </Button>
     </div>
   );
 };
